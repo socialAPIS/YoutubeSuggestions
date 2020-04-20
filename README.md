@@ -39,10 +39,10 @@ foreach ($response->getSearchModel() as $search_model) {
 ```
 See the following example, click [here](./Examples/fetchSuggestions.php).
 
-#License
+# License
 The Unlicense
 
 For more information, please refer to [https://unlicense.org](https://unlicense.org)
 
-#Legal
+# Legal
 This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Google or Youtube or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
