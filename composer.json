@@ -1,0 +1,44 @@
+{
+  "name": "socialapis/youtube-suggestions",
+  "description": "A small webproxy for google and youtube autocomplete results.",
+  "keywords": [
+    "Youtube",
+    "Private",
+    "API",
+    "PHP"
+  ],
+  "authors": [
+    {
+      "name": "socialAPIS",
+      "email": "noemail@example.com",
+      "role": "Founder"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "YoutubeSuggestions\\": "src/",
+      "": "protobuf/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "YoutubeSuggestions\\Tests\\": "tests/",
+      "": "protobuf/GPBMetadata/"
+    }
+  },
+  "license": "RPL-1.5",
+  "require": {
+    "php": ">=7.0",
+    "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
+    "guzzlehttp/guzzle": "^6.2",
+    "google/protobuf": "^3.11"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "scripts": {
+    "test": [
+      "phpunit tests"
+    ]
+  }
+}
